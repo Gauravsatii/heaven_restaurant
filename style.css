@@ -1,0 +1,826 @@
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: goldenrod;
+    font-size: 3vw;
+  }
+img{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.812);
+    position: relative;
+  
+}
+
+
+.text-area{
+
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.text-area>h1{
+     color:rgb(255, 189, 22);
+     font-size: 85px;
+     font-family: 'Great Vibes';
+     letter-spacing: 10px;
+}
+
+.text-area>h2{
+    color: white;
+    font-size: 55px;
+    font-family: 'montserrat';
+    letter-spacing: 2px;
+}
+.text-area>p{
+    color: white;
+    font-size: 55px;
+    font-family: 'montserrat';
+    letter-spacing: 2px;
+    margin-top: 15vh;
+    font-family: 'Great Vibes';
+}
+
+.about-us{
+
+    height: 140vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.922);
+    position: relative;
+    
+    
+}
+.aheading{
+  
+   margin-top: 15vh;
+}
+.aheading>h3{
+    text-align: center;
+    font-family: 'montserrat';
+    margin-top: 7px;
+    color: rgb(255, 183, 0);
+}
+.aheading>h1{
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 65px;
+    color:white;
+    font-family: 'roboto slab';
+    letter-spacing: 2px;
+    font-family: 'Great vibes';
+    font-weight: 300;
+}
+
+.aheading>hr{
+    width: 60%;
+    border: 1px dashed goldenrod;
+    margin: auto;
+    opacity: 0.4;
+}
+
+
+
+.abox{
+ 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    width: 100vw;
+    height: 80vh;
+}
+.box1{
+   
+    height: 60vh;
+    width: 20vw;
+    margin-top: 5vh;
+/*  margin-left: 2vw;*/
+    background-image: url('./saanjh/shake.jpg');
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box1>h1{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 67vh;
+
+    font-family: 'montserrat';
+    color: white;
+     font-weight: 900;
+    
+}
+
+.box2{
+  
+    height: 60vh;
+    width: 20vw;
+    margin-top: 25vh;
+    background-image: url('./saanjh/momo.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2>h1{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 67vh;
+  
+    font-family: 'montserrat';
+    color: white;
+     font-weight: 900;
+    
+}
+.box2>img{
+    height: 70%;
+    width: 100%;
+}
+.box3{
+   
+    height: 60vh;
+    width: 20vw;
+    margin-top: 5vh;
+    margin-right: 2vw;
+    background-image: url('./saanjh/pizza.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3>h1{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 67vh;
+
+     color: white;
+     font-family: 'montserrat';
+     font-weight: 900;
+    
+}
+.box3>img{
+
+    height: 70%;
+    width: 100vw;
+
+}
+.dishes-description{
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-family: 'montserrat';
+    font-size: 22px;
+    color: rgb(255, 183, 0) ;
+    margin-top: 10px;
+
+}
+.dishes-description2{
+    margin-top: 15px;
+    font-size: 42px;
+    color: goldenrod;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.our-story{
+
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.803);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.o-centre-box{
+    height: 83vh;
+    width: 50%;
+    border: 2px solid rgb(255, 186, 11);
+    margin-top: 10vh;
+}
+.our-story>h4{
+    text-align: center;
+    font-size: 2vw;
+    color: goldenrod;
+    margin-top: 5vh;
+    font-family: 'montserrat';
+}
+.o-centre-box>h1{
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    margin-top: 8vh;
+
+}
+.o-centre-box>p{
+    text-align: center;
+    font-size: 1.5vw;
+    color: goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    margin-top: 8vh;
+    font-family: 'roboto';
+}
+.o-centre-box>h3{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 8vh;
+   font-family: 'montserrat';
+  
+}
+.o-centre-box>h2{
+    margin-top: -5vh;
+    text-align: center;
+    font-size: 35px;
+    color: goldenrod;
+    height: 23vh;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.special-dish{
+
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.837);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sbox1{
+
+    height: 70vh;
+    width: 30vw;
+    border: 5px solid black;
+}
+.sbox1>img{
+ 
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.sbox2{
+  
+    height: 70vh;
+    width: 100vw;
+   margin-left: 2vw;
+   margin-top: -10vh;
+   background-color: black;
+
+}
+.sheading{
+   
+    margin-top: 20vh;
+    width: 40vw;
+   
+    
+}
+.sheading>img{
+ 
+    width: 20%;
+    height: 6vh;
+    width: 3vw;
+  
+}
+.sheading>h3{
+  
+    font-size: 22px;
+    color: goldenrod;
+    padding: 12px;
+    align-items: top;
+}
+
+.sbox2>h1{
+
+    color: white;
+    font-size:65px ;
+     margin-left: 0vw;
+     margin-top: 2vh;
+
+}
+.sbox2>p{
+    color: rgb(255, 255, 255);
+    font-size:25px ;
+    
+     margin-top: 3vh;
+     width: 32vw;
+}
+
+.sbox2>h2{
+    border: 2px solid goldenrod;
+    height: 10vh;
+    width:22vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    height:120vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.805);
+}
+
+.mheading{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    gap:5vh;
+}
+.mheading>p{
+    font-size: 20px;
+    color: rgb(255, 189, 22);
+}
+.mheading>h1{
+    
+    font-size: 62px;
+    color:#fff;
+
+}
+
+.mbox{
+    height: 60vh;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 3vw;
+    
+}
+
+.m-box{
+    height: 100%;
+    width: 42.5vw;
+    display: flex;
+    flex-direction: column;
+}
+.mbox11{
+       height: 33%;
+       width: 100%;
+    
+       display: flex;
+       align-items: center;
+       
+}
+.mbox11>img{
+    width: 30%;
+    height: 80%;
+    position: relative;
+}
+.mbox22{
+       height: 33%;
+       width: 100%;
+       display: flex;
+}
+.mbox22>img{
+    width: 30%;
+    height: 80%;
+    position: relative;
+}
+.m-dish-description{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+
+}
+.m-dish-description>h1{
+    color: white;
+    font-size:1.5vw ;
+   
+    margin-top: 2vh;
+    padding-left: 2vw;
+}
+.m-dish-description>h1 span{
+    color: goldenrod;
+    padding: 4vw;
+    
+}
+.m-dish-description>p{
+    color: white;
+    font-size:1vw ;
+   
+    margin-top: 2vh;
+    padding-left: 2vw;
+}
+.separator{
+    border: 2px solid rgba(122, 122, 122, 0.575);
+    transform: rotate(90deg);
+    margin-left: 57vh;
+    margin-top:-30vh;
+    height: 0.5px;
+    width: 70%;
+  
+}
+
+.menu>h2{
+    border: 2px solid goldenrod;
+    height: 10vh;
+    width:22vw;
+    margin-top:7vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.review{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.807);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.review-box>h1{
+    color: white;
+    font-size: 3vw;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+   
+}
+.review-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;
+    border: 2px solid goldenrod;
+    height: 80vh;
+    width: 50%;
+}
+.review-box input{
+    border: 2px solid rgba(171, 171, 171, 0.318);
+    background-color: transparent;
+    width: 30vw;
+    height: 10vh;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1vw;
+}
+
+#text-area{
+       height: 20vh;
+       width: 30vw;
+
+}
+
+.submit-button{
+    background-color: transparent;
+    width:10vw;
+    height: 6vh;
+    text-align: center;
+    margin-top: 5vh;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}
+
+
+
+
+.track-us{
+    height: 190vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.807);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+.food-banner{
+    height: 70vh;
+    width: 100vw;
+}
+.food-banner>img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    opacity: 0.8;
+}
+.location{
+   height: 60vh;
+   width: 50%;
+
+}
+.location>h1{
+    color:#ffffffcf;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'montserrat';
+  
+
+    
+}
+.location>p{
+    color: #ffffff6b;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2vh;
+    
+}
+.location-hr{
+    
+    color: rgba(0, 0, 0, 0.574);
+}
+.location>h2{
+    color:goldenrod;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'montserrat';   
+    margin-top: 11vh;
+}
+
+.location span{
+    color:#8f8d8d;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+
+}
+.location>h3{
+    color:goldenrod;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'montserrat';   
+    margin-top: 10vh;
+}
+
+.footer-banner{
+    height: 40vh;
+    width: 100%;
+  
+}
+.footer-banner>p{
+  color: goldenrod;
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 22px;
+  font-weight: 400;
+}
+.footer-banner>h2{
+  color: goldenrod;
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+@media(max-width: 500px){
+
+    img{
+        height:100vh;
+        width: 100vw;
+    
+    }
+    .main{
+        height: auto;
+        width: 100vw;
+     
+    }
+
+    .home{
+        height: 100vh;
+        width: 100%;
+        
+    }
+
+    .text-area h1{
+        font-size: 8vw;
+        letter-spacing: 0.2px;
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .text-area hr{
+        width: 60%;
+        color: rgba(216, 166, 40, 0.229);
+    }
+
+    .text-area h2{
+        font-size: 8vw;
+        letter-spacing: 0.2px;
+       
+    }
+
+    .text-area p{
+        text-align: center;
+        font-size: 8vw;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+
+    .about-us{
+        margin-top: -20vh;
+        height: 280vh;
+       
+    }
+
+    .aheading h1{
+        font-size: 12vw;
+    }
+
+    .abox{
+        margin-top: 70vh;
+       flex-direction: column;
+       gap: 10px;
+    }
+
+    .box1{
+        width: 85%;
+        margin-top: 25vh;
+    }
+    .box2{
+        margin-top: 25vh;
+        width: 85%;
+    }
+    .box3{
+        width: 85%;
+        margin-top: 30vh;
+    }
+
+
+    .our-story{
+        margin-top: 10vh;
+    }
+
+    .our-story h4{
+        font-size: 6vw;
+    }
+    .o-centre-box{
+        width: 85%;
+        height: 75vh;
+    }
+
+    .o-centre-box h1{
+        font-size: 7vw;
+    }
+
+
+    .o-centre-box p{
+        width: 70%;
+        font-size: 4vw;
+    }
+
+    .o-centre-box h3{
+        margin-top: 8vh;
+    }
+
+    .special-dish{
+        margin-top: 15vh;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sbox1{
+        width: 85%;
+    }
+    .sheading{
+        display: none;
+        width: 100vw;
+     
+    }
+
+
+    .sbox2{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .sbox2 h1{
+        margin-top: 10vh;
+        font-size: 8vw;
+        width: 100vw;
+        
+    }
+    .sbox2 > h1{
+        color: goldenrod;
+        width: 100vw;
+        text-align: center;
+        margin-top: 15vh;
+        font-family: 'Great vibes';
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-size: 8vw;
+    }
+
+    .sbox2 > p{
+       
+        width: 78vw;
+        font-size: 3vw;
+    }
+
+    .sbox2 > h2{
+        width: 40vw;
+        text-align: center;
+        font-size: 4vw;
+        height: 5vh;
+      
+     
+    }
+    
+    .review-box{
+        width: 90vw;
+        height: 70vh;
+    }
+
+    .review-box h1{
+        font-size: 6vw;
+        
+    }
+
+    .review-box input{
+        width: 80vw;
+        color: white;
+        font-size: 4vw;
+    
+    }
+
+    #text-area{
+        width: 80vw;
+    }
+
+    .submit-button{
+        width: 40vw;
+        border-radius:7px ;
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .location h1{
+        font-size: 10vw;
+        width: 80vw;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+
+    .location h2{
+        width: 80vw;
+    }
+
+    .location p{
+        font-size: 22px;
+        width: 80vw;
+    }
+    .location span{
+        font-size: 6vw;
+       
+     
+    }
+   
+
+   
+}
