@@ -6,7 +6,7 @@
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: goldenrod;
-    font-size: 3vw;
+    font-size: 2vw;
   }
 img{
     height: 100%;
@@ -57,6 +57,9 @@ img{
     letter-spacing: 2px;
     margin-top: 15vh;
     font-family: 'Great Vibes';
+}
+.text-area hr{
+    width: 40vw;
 }
 
 .about-us{
@@ -114,7 +117,7 @@ img{
     width: 20vw;
     margin-top: 5vh;
 /*  margin-left: 2vw;*/
-    background-image: url('./saanjh/shake.jpg');
+    background-image: url('./images/shake.jpg');
     
     background-position: center;
     background-size: cover;
@@ -137,7 +140,7 @@ img{
     height: 60vh;
     width: 20vw;
     margin-top: 25vh;
-    background-image: url('./saanjh/momo.jpg'); 
+    background-image: url('./images/momo.jpg'); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,7 +166,7 @@ img{
     width: 20vw;
     margin-top: 5vh;
     margin-right: 2vw;
-    background-image: url('./saanjh/pizza.jpg');
+    background-image: url('./images/pizza.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,19 +271,22 @@ img{
 }
 
 .special-dish{
-
+    margin-left: 80vw;
     height: 100vh;
-    width: 100%;
+  
+    width: 70%;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.837);
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
 }
 .sbox1{
 
     height: 70vh;
-    width: 30vw;
+    width: 50vw;
     border: 5px solid black;
 }
 .sbox1>img{
@@ -292,7 +298,7 @@ img{
 .sbox2{
   
     height: 70vh;
-    width: 100vw;
+    width: 50vw;
    margin-left: 2vw;
    margin-top: -10vh;
    background-color: black;
